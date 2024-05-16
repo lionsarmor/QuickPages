@@ -1,41 +1,47 @@
+Copy code
 <script setup lang="ts">
-defineProps<{
+import { defineProps } from 'vue'
+import { RouterLink, RouterView } from 'vue-router'
+
+// Define props using defineProps within the setup function
+const props = defineProps<{
   msg: string
 }>()
 </script>
 
+<script lang="ts">
+// Export the component with its name
+export default {
+  name: 'HomePage'
+  // Add any component-specific logic here
+}
+</script>
+
 <template>
-  <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
-    </h3>
+  <div class="bg-gray-100">
+    <!-- Navbar -->
+    <div class="bg-blue-500 p-4 flex justify-between items-center">
+      <!-- Logo -->
+      <div class="flex-shrink-0">
+        <img class="h-8" src="/src/assets/logo.svg" alt="Logo" />
+      </div>
+      <!-- Brand Name -->
+      <div class="text-white text-lg font-semibold">Your Brand Name</div>
+      <!-- Phone Number -->
+      <div class="text-white text-lg font-semibold">Phone: +1234567890</div>
+    </div>
+
+    <!-- Content -->
+    <div class="container mx-auto mt-8 px-4">
+      <!-- Your content here -->
+      <p><RouterLink to="/">Home</RouterLink></p>
+    </div>
+
+    <!-- Simple Tailwind Name Number -->
+    <div class="fixed bottom-4 right-4 bg-blue-500 text-white px-4 py-2 rounded-full shadow-lg">
+      <span class="text-lg font-semibold">42</span>
+    </div>
   </div>
 </template>
 
-<style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  position: relative;
-  top: -10px;
-}
-
-h3 {
-  font-size: 1.2rem;
-}
-
-.greetings h1,
-.greetings h3 {
-  text-align: center;
-}
-
-@media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
-  }
-}
-</style>
+<style scoped></style>
