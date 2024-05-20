@@ -35,7 +35,8 @@ export default {
         'Custom Drywall Solutions',
         'Consultation and Project Management',
         'Emergency Drywall Services',
-        'Drywall Demolition and Removal'
+        'Project Demolition and Waste Removal',
+        'Match Existing Textures'
       ]
     }
   },

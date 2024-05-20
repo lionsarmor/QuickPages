@@ -3,6 +3,7 @@
     <NavBar />
     <Hero />
     <Services />
+    <PicturesPage />
     <AboutUs />
     <ContactUs />
   </div>
@@ -12,6 +13,7 @@
 import NavBar from './components/NavBar.vue'
 import Hero from './components/Hero.vue'
 import Services from './components/Services.vue'
+import PicturesPage from './components/PicturesPage.vue'
 import AboutUs from './components/AboutUs.vue'
 import ContactUs from './components/ContactUs.vue'
 
@@ -21,6 +23,7 @@ export default {
     NavBar,
     Hero,
     Services,
+    PicturesPage,
     AboutUs,
     ContactUs
   }
