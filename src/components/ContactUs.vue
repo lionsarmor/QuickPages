@@ -31,7 +31,7 @@ export default {
 
 <style scoped>
 .contact-footer {
-  background-color: #f8f8f8;
+  background-color: #f3e9ce;
   padding: 3rem 1rem;
   border-top: 1px solid #a70404;
 }

@@ -22,7 +22,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 .navbar {
-  background-color: #ffffff;
+  background-color: #f3e9ce;
   border-bottom: 1px solid #a70404;
   padding: 1rem 0;
 }
