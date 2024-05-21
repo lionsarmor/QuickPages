@@ -33,8 +33,6 @@ export default {
         'Water Damage Solutions',
         'Fireproofing and Insulation Services',
         'Custom Drywall Solutions',
-        'Consultation and Project Management',
-        'Emergency Drywall Services',
         'Project Demolition and Waste Removal',
         'Match Existing Textures'
       ]

@@ -18,7 +18,7 @@ import AboutUs from './components/AboutUs.vue'
 import ContactUs from './components/ContactUs.vue'
 
 export default {
-  name: 'App',
+  name: 'AppPage',
   components: {
     NavBar,
     Hero,

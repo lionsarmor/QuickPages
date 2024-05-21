@@ -2,22 +2,19 @@
   <div class="image-carousel">
     <div class="carousel-track">
       <div class="carousel-item">
-        <img src="@/assets/beer.png" alt="Image 1" />
+        <img src="@/assets/dry2.png" alt="Image 1" />
       </div>
       <div class="carousel-item">
-        <img src="@/assets/beer.png" alt="Image 2" />
+        <img src="@/assets/dry4.png" alt="Image 2" />
       </div>
       <div class="carousel-item">
-        <img src="@/assets/beer.png" alt="Image 3" />
+        <img src="@/assets/dry3.png" alt="Image 3" />
       </div>
       <div class="carousel-item">
-        <img src="@/assets/beer.png" alt="Image 1" />
+        <img src="@/assets/dry1.png" alt="Image 1" />
       </div>
       <div class="carousel-item">
-        <img src="@/assets/beer.png" alt="Image 2" />
-      </div>
-      <div class="carousel-item">
-        <img src="@/assets/beer.png" alt="Image 3" />
+        <img src="@/assets/dry5.png" alt="Image 2" />
       </div>
       <!-- Add more carousel items as needed -->
     </div>
@@ -44,7 +41,7 @@
 
 .carousel-item img {
   width: 400px; /* Adjust the width of the images as needed */
-  height: auto;
+  height: 300px;
   margin-right: 5px; /* Add some margin between images */
   cursor: pointer; /* Change cursor to indicate clickable element */
   transition: transform 0.3s ease; /* Add transition for smoother resizing */

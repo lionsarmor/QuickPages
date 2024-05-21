@@ -22,7 +22,7 @@ export default {
   background-image: url('@/assets/popcorn.jpg'); /* Replace '/path/to/your/image.jpg' with the actual path to your image */
   background-size: cover;
   background-position: center;
-  padding: 5rem 0;
+  padding: 13rem 0;
   text-align: center;
   border-bottom: 1px solid #a70404;
   font-family: 'Satisfy', cursive; /* Use Satisfy font from Google Fonts */
